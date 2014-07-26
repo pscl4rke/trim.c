@@ -20,7 +20,14 @@ Limitations
 -----------
 
 * No man page.
-* No test suite.
 * Inability to detect terminal window size.
+
+
+Development
+-----------
+
+Testing is done with `cram`.  Run with:
+
+    $ make test
 
 
