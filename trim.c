@@ -1,4 +1,6 @@
 
+// trim.c -- (c) 2014 P. S. Clarke -- Released under GNU GPLv3
+
 #include <stdio.h>
 
 #define DEFAULTLINESIZE 80

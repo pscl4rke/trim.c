@@ -2,7 +2,10 @@
 trim.c
 ======
 
-Unix pipeline tool for trimming long lines (C implementation)
+Unix pipeline tool for trimming long lines.
+
+This is an implementation in C, and is licensed under
+the GNU GPL version 3.
 
 
 Usage
