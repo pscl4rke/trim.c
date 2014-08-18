@@ -23,11 +23,16 @@ Limitations
 -----------
 
 * No man page.
-* Inability to detect terminal window size.
+* Terminal width detection is probably not portable.
+* Width detection fails when piped (e.g. into `less`).
 
 
 Development
 -----------
+
+Build with:
+
+    $ make
 
 Testing is done with `cram`.  Run with:
 
