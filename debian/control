@@ -1,0 +1,14 @@
+Source: trim-c
+Section: utils
+Priority: optional
+Maintainer: P. S. Clarke <debs@pscl4rke.net>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: https://github.com/pscl4rke/trim.c
+
+Package: trim-c
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Unix pipeline tool for trimming long lines.
+ This is an implementation in C, and is licensed under
+ the GNU GPL version 3.
