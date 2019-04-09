@@ -1,3 +1,12 @@
+trim-c (0~20190409) unstable; urgency=medium
+
+  * Bugfix operation on the Raspberry Pi.
+    I don't really understand this, but getchar actually returns
+    an int, not a char, and this means on some platforms it
+    can't match EOF even when it's hit the end of the file.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Tue, 09 Apr 2019 21:57:32 +0100
+
 trim-c (0~20140818) unstable; urgency=low
 
   * Initial Release based on code from last summer.

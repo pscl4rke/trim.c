@@ -18,7 +18,7 @@ int get_line_size (void) {
 }
 
 int trim (int width) {
-    char c;
+    int c; // not char, so it works on raspi
     int i = 0;
 
     while ((c = getchar()) != EOF) {
